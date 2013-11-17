@@ -8,6 +8,11 @@ import android.content.res.Configuration;
 import android.view.WindowManager;
 import com.example.PEAR_POC.R;
 
+/**
+ * Created with IntelliJ IDEA.
+ * User: pajed002
+ * Date: 11/16/13
+ */
 public class MainDashboardActivity extends Activity {
     /**
      * Called when the activity is first created.

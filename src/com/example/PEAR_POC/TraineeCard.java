@@ -4,8 +4,6 @@ package com.example.PEAR_POC;
  * Created with IntelliJ IDEA.
  * User: pajed002
  * Date: 11/16/13
- * Time: 3:33 PM
- * To change this template use File | Settings | File Templates.
  */
 public class TraineeCard {
 

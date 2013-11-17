@@ -20,10 +20,7 @@ import java.util.HashMap;
  * Created with IntelliJ IDEA.
  * User: pajed002
  * Date: 11/16/13
- * Time: 3:16 PM
- * To change this template use File | Settings | File Templates.
  */
-
 public class TraineeCardsFragment extends ListFragment {
 
     ArrayList<TraineeCard> trainees;

@@ -10,8 +10,6 @@ import com.example.PEAR_POC.Fragments.WeeklyProgressFragment;
  * Created with IntelliJ IDEA.
  * User: pajed002
  * Date: 11/16/13
- * Time: 2:10 PM
- * To change this template use File | Settings | File Templates.
  */
 public class WeeklyDashboardActivity extends Activity {
     @Override

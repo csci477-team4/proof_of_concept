@@ -17,8 +17,6 @@ import java.util.ArrayList;
  * Created with IntelliJ IDEA.
  * User: pajed002
  * Date: 11/16/13
- * Time: 5:04 PM
- * To change this template use File | Settings | File Templates.
  */
 public class WeeklyProgressFragment extends Fragment {
     /**
@@ -28,7 +26,6 @@ public class WeeklyProgressFragment extends Fragment {
     public static WeeklyProgressFragment newInstance(WeeklyWorkoutData wwd) {
         WeeklyProgressFragment f = new WeeklyProgressFragment();
 
-        // Supply index input and trainee info as arguments.
         Bundle args = new Bundle();
         ArrayList<String> arr = wwd.getWorkouts();
         args.putSerializable("start", wwd.getStartTime());

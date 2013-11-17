@@ -14,13 +14,11 @@ import com.example.PEAR_POC.TraineeCard;
  * Created with IntelliJ IDEA.
  * User: pajed002
  * Date: 11/16/13
- * Time: 5:04 PM
- * To change this template use File | Settings | File Templates.
  */
 public class NewsFeedFragment extends Fragment {
     /**
      * Create a new instance of NewsFeedFragment, initialized to
-     * show the details of the trainee card.
+     * show some dummy text using trainee card info
      */
     public static NewsFeedFragment newInstance(int index, TraineeCard tc) {
         NewsFeedFragment f = new NewsFeedFragment();
