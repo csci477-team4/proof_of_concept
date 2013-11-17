@@ -91,28 +91,27 @@ public class TraineeCardsFragment extends ListFragment {
                 // Execute a transaction, replacing any existing fragment
                 // with this one inside the frame.
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
-                if (index == 0) {
-                    ft.replace(R.id.trainee_details, newsFeed);
-                } else {
-//                    ft.replace(R.id.a_item, newsFeed);
-                }
+                ft.replace(R.id.trainee_details, newsFeed);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
             }
 
         } else {
             // Otherwise we need to launch a new activity to display
-            // the news feed and workout fragments. here we fake the workout data.
+            // the news feed and workout fragments.
             Intent intent = new Intent();
             intent.setClass(getActivity(), NewsFeedActivity.class);
             intent.putExtra("index", index);
             String[] arr = {trainees.get(index).getName(), trainees.get(index).getInfo()};
             intent.putExtra("information", arr);
+
+            // create a WeeklyWorkoutData object with some fake data
             HashMap<String, String> map = new HashMap<String, String>();
             map.put("Running", "SOME RUNNING DATA");
             map.put("Swimming", "SOME SWIMMING DATA");
             map.put("Hiking", "SOME HIKING DATA");
             WeeklyWorkoutData wwd = new WeeklyWorkoutData("Jan 1", "Jan 8", map);
+
             intent.putExtra("start", wwd.getStartTime());
             intent.putExtra("end", wwd.getEndTime());
             intent.putExtra("data", wwd.getWorkouts());
