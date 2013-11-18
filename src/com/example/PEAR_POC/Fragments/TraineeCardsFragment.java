@@ -38,7 +38,7 @@ public class TraineeCardsFragment extends ListFragment {
         trainees.add(new TraineeCard("Marc", "Operational Concepts Engineer"));
         trainees.add(new TraineeCard("Shay", "Feasibility Analyst"));
         trainees.add(new TraineeCard("Tanya", "Project Manager"));
-        trainees.add(new TraineeCard("Vahe", "Lice Cycle Planner"));
+        trainees.add(new TraineeCard("Vahe", "Life Cycle Planner"));
 
         // populate the list
         setListAdapter(new ArrayAdapter<TraineeCard>(getActivity(),
@@ -77,7 +77,7 @@ public class TraineeCardsFragment extends ListFragment {
         mCurCheckPosition = index;
 
         if (mDualPane) {
-            // landscape mode, so we can display everything in-place with fragments
+            // landscape mode, so we can display the newsfeed inline with the trainee card list
             // update the list to highlight the selected trainee and show the trainee's newsfeed.
             getListView().setItemChecked(index, true);
 

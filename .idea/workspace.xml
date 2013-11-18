@@ -34,7 +34,7 @@
     <file path="/MainDashboard.java" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384651291455" ignored="false" />
     <file path="/TraineeCardFragment.java" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384668523241" ignored="false" />
     <file path="/Dummy.txt" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384678888861" ignored="false" />
-    <file path="/TraineeCardsFragment.java" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384731963227" ignored="false" />
+    <file path="/TraineeCardsFragment.java" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384738800480" ignored="false" />
     <file path="/TraineeCard.java" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384666311891" ignored="false" />
     <file path="/tc_fragment.xml" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384649874175" ignored="false" />
     <file path="/main.xml" changelist="ef2a0863-4bb2-432b-9376-372115414a06" time="1384731033188" ignored="false" />
@@ -117,6 +117,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MainDashboardActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/MainDashboardActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="23" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TraineeDashboardActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/TraineeDashboardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,9 +140,20 @@
       <file leaf-file-name="TraineeCardsFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Fragments/TraineeCardsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="51" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.57831323">
+            <state line="40" column="49" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.10843374">
               <folding>
-                <element signature="e#4433#4449#0" expanded="true" />
+                <element signature="e#4445#4461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsFeedActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/NewsFeedActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="19" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,15 +163,6 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/WeeklyWorkoutData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeeklyDashboardActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/WeeklyDashboardActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -786,15 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/MainDashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/ChangeSettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
@@ -886,11 +890,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/NewsFeedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Activities/MainDashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="23" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PEAR_POC/Fragments/TraineeCardsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="51" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.57831323">
+        <state line="40" column="49" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.10843374">
           <folding>
-            <element signature="e#4433#4449#0" expanded="true" />
+            <element signature="e#4445#4461#0" expanded="true" />
           </folding>
         </state>
       </provider>
